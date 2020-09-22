@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e669ebb8-adc5-4582-8b66-6d4dc17809a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600619244529</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1600624422198</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600624422198</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +242,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initital" />
-    <option name="LAST_COMMIT_MESSAGE" value="initital" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="770" y="399" key="#Composer" timestamp="1596519156781">
@@ -303,10 +310,14 @@
     </state>
     <state x="301" y="61" key="SettingsEditor/0.0.1600.860/-1680.87.1680.1050@0.0.1600.860" timestamp="1597478409414" />
     <state x="301" y="61" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1597053773134" />
-    <state x="157" y="205" key="Vcs.Push.Dialog.v2" timestamp="1600624033275">
+    <state x="630" y="298" key="VCS.EditChangelistDialog" timestamp="1600624474410">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="157" y="205" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600624033275" />
+    <state x="630" y="298" key="VCS.EditChangelistDialog/0.0.1600.860@0.0.1600.860" timestamp="1600624474410" />
+    <state x="157" y="205" key="Vcs.Push.Dialog.v2" timestamp="1600624462153">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="157" y="205" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1600624462153" />
     <state x="617" y="343" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600622513485">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
