@@ -10,6 +10,6 @@
     @endforeach
 </ol>
 
-    <a href="/pizzas/create">Order a Pizza</a>
+    <a href="/pizzas/create">Order a Pizzaa</a>
 
 @endsection
