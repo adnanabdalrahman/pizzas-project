@@ -3,5 +3,5 @@
 
 <h1>Welcome</h1>
 <p class="msg">{{session('msg')}}</p>
-<a href="/pizzas/create">Order a Pizza</a>
+<a href="{{ route('pizza.create') }}">Order a Pizza</a>
 @endsection

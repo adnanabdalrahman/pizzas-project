@@ -68,9 +68,15 @@ Route::get('/routeparameters/{id}', function ($id) {
 });
 
 //Project
-Route::get('/pizzas','PizzaController@index');
-Route::get('/pizzas/create','PizzaController@create');//create should be before /pizzas/{id} to take it before
-Route::post('/pizzas','PizzaController@store');
-Route::get('/pizzas/{id}','PizzaController@show');
-Route::delete('/pizzas/{id}','PizzaController@destroy');
+Route::get('/pizzas','PizzaController@index')->name('pizza.index')->middleware('auth');
+Route::get('/pizzas/create','PizzaController@create')->name('pizza.create');//create should be before /pizzas/{id} to take it before
+Route::post('/pizzas','PizzaController@store')->name('pizza.store');
+Route::get('/pizzas/{id}','PizzaController@show')->name('pizza.show')->middleware('auth');
+Route::delete('/pizzas/{id}','PizzaController@destroy')->name('pizza.destroy')->middleware('auth');
 
+
+Auth::routes([
+    'register'=>false,
+]);
+
+Route::get('/home', 'HomeController@index')->name('home');

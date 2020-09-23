@@ -1,4 +1,4 @@
-@extends('layouts.layout');
+@extends('layouts.app')
 @section('content')
     <div>
         <p>My Pizza is {{$pizza->name}} </p>
@@ -11,7 +11,7 @@
             @endforeach
         </ul>
     </div>
-    <form action="/pizzas/{{$pizza->id}}" method="POST">
+    <form action="{{ route('pizza.destroy',$pizza->id) }}" method="POST">
         @csrf
         @method('DELETE')
         <button type="submit">X Delete</button>

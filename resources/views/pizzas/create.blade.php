@@ -1,8 +1,8 @@
-@extends('layouts.layout');
+@extends('layouts.app')
 @section('content')
 <div class="wrapper create-pizza">
     <h1>Create a New Pizza</h1>
-    <form action="/pizzas" method="post">
+    <form action="{{ route('pizza.store') }}" method="post">
         @csrf <!-- important to read laravel form (avoid attacking) -->
         <label for="name">Your name:</label>
         <input type="text" id="type" name="name"/>
